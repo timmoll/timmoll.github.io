@@ -969,6 +969,15 @@ img {
         margin-right: var(--mb-1);
     }
 
+    .home__blob {
+        order: 1;
+        }
+        
+    
+    .home__data {
+        order: 3;
+    }
+        
     .nav__menu {
         padding: 2rem .25rem 4rem;
     }
@@ -991,7 +1000,7 @@ img {
     }
 
     .home__social {
-        display: flex;
+        display: grid;
         grid-template-columns: max-content;
         row-gap: 1rem;
     }
@@ -1031,6 +1040,21 @@ img {
         margin-left: auto;
         margin-right: auto;
         
+    }
+
+    .home__blob {
+        order: 1;
+        }
+        
+    
+    .home__data {
+        order: 3;
+    }
+
+    .home__social {
+        display: grid;
+        grid-template-columns: max-content;
+        row-gap: 1rem;
     }
 }
 
