@@ -1042,13 +1042,14 @@ img {
         
     }
 
-    .home__blob {
+    .home__blob,
+    .home__img {
         order: 1;
         }
         
     
     .home__data {
-        order: 3;
+        order: 2;
     }
 
     .home__social {
