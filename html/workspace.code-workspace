@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Leerjaar 1/BLOK 4/Inleiding Programmeren/Week 4/4b/css"
+		},
+		{
+			"path": "../../Leerjaar 1/BLOK 4/Inleiding Programmeren/Week 4/4b/images"
+		},
+		{
+			"path": "../../Leerjaar 1/BLOK 4/Inleiding Programmeren/Week 4/4b/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}
