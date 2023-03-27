@@ -547,6 +547,18 @@ img {
     width: 50%;
 }
 
+.skills__ga {
+    width: 80%;
+}
+
+.skills__fa {
+    width: 70%;
+}
+
+.skills__ia {
+    width: 70%;
+}
+
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
@@ -647,8 +659,13 @@ img {
 }
 
 .qualification__button.qualification__active {
-    color:darkgreen;
-    text-decoration: underline;
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+   
 }
 
 /*============ SERVICES ============*/
@@ -1191,7 +1208,7 @@ img {
     }
 
     .services__container {
-        grid-template-columns: repeat(4, 190px);
+        grid-template-columns: repeat(3, 190px);
         justify-content: center;
         margin-left: var(--mb-2);
         margin-right: var(--mb-2);
@@ -1350,3 +1367,5 @@ img {
     margin-top: 1em;
     text-align: center;
 }
+
+
