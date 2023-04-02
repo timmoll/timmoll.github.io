@@ -881,6 +881,13 @@ img {
     border-radius: .5rem;
 }
 
+.contact__container a {
+    text-decoration: underline;
+    color: var(--text-color-light);
+    font-size: var(--small-font-size);
+}
+
+
 /*============ FOOTER ============*/
 .footer {
     padding-top: 2rem;
