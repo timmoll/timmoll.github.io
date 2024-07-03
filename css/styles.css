@@ -307,7 +307,10 @@ img {
 }
 
 .home__blob-img {
-    width: 170px;
+    width: 220px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
 }
 
 .home__data {
@@ -1205,7 +1208,9 @@ img {
     }
 
     .about__info {
-        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: var(--mb-2-5);
     }
 
     .about__buttons {
