@@ -1344,8 +1344,10 @@ img {
     margin-left: 13em;
     margin-right: 13em;
     text-align: center;
-    font-size: var(--normal-font-size);  
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
     margin-bottom: 2em;  
+    font-weight: 300;
     
 }
 
