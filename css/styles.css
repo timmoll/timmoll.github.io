@@ -1343,11 +1343,11 @@ img {
     margin-top: 1em;
     margin-left: 13em;
     margin-right: 13em;
-    text-align: center;
     font-family: var(--body-font);
     font-size: var(--small-font-size);
     margin-bottom: 2em;  
     font-weight: 300;
+    text-align: initial;
     
 }
 
@@ -1414,7 +1414,7 @@ img {
 .portfolio h3 {
     margin-bottom: 1em;
     margin-top: 1em;
-    text-align: center;
+    text-align: initial;
 }
 
 
