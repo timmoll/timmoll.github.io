@@ -146,6 +146,16 @@ img {
 
 }
 
+.underline-links {
+    text-decoration: underline;
+    color: inherit; 
+}
+
+.underline-links:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .section__title {
     font-size: var(--h1-font-size);
 }
@@ -900,15 +910,6 @@ img {
     font-size: var(--small-font-size);
 }
 
-.underline-links {
-    text-decoration: underline;
-    color: inherit; 
-}
-
-.underline-links:hover {
-    text-decoration: underline;
-    color: inherit;
-}
 
 /*============ FOOTER ============*/
 .footer {
