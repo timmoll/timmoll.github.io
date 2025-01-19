@@ -900,6 +900,15 @@ img {
     font-size: var(--small-font-size);
 }
 
+.underline-links {
+    text-decoration: underline;
+    color: inherit; 
+}
+
+.underline-links:hover {
+    text-decoration: underline;
+    color: inherit;
+}
 
 /*============ FOOTER ============*/
 .footer {
