@@ -457,15 +457,10 @@ img {
 
 }
 
-.about__buttons {
+.about_buttons {
     display: flex;
     justify-content: space-evenly;
- 
-
-
-
 }
-
 
 
 /*============ SKILLS ============*/
@@ -1208,6 +1203,10 @@ img {
         column-gap: 5rem;
     }
 
+
+
+
+
     .about__img {
         width: 350px;
         align-self: auto;
@@ -1224,7 +1223,9 @@ img {
     }
 
     .about__buttons {
+       
         justify-content: space-between;
+        display: flex;
     }
 
     .qualification__tabs {
