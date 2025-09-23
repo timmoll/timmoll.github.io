@@ -317,10 +317,11 @@ img {
 }
 
 .home__blob-img {
-    width: 220px;
+    width: 280px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+    transform: translate(-47px, -90px); /* X = links/rechts, Y = omhoog/omlaag */
 }
 
 .home__data {
@@ -368,6 +369,36 @@ img {
 
 .home__scroll-arrow {
     font-size: 1.25rem;
+}
+
+.home__buttons {
+    display: flex;
+    gap: 1rem; /* ruimte tussen knoppen */
+    margin-top: 1.5rem; /* zorgt dat de knoppen iets lager komen */
+}
+
+.home__buttons .button {
+    text-align: center;
+}
+
+/* Outline-stijl voor de portfolio-knop */
+.button--outline {
+    background-color: transparent;       /* Geen achtergrond */
+    color: var(--first-color);           /* Tekstkleur hetzelfde als je thema */
+    border: 2px solid var(--first-color); /* Duidelijke rand */
+    transition: all 0.3s ease;
+}
+
+/* Hover-effect */
+.button--outline:hover {
+    background-color: var(--first-color); /* Achtergrond gevuld bij hover */
+    color: #fff;                          /* Tekst wordt wit bij hover */
+}
+
+.button.button--outline {
+    background-color: transparent !important;
+    color: var(--first-color) !important;
+    border: 2px solid var(--first-color);
 }
 
 /*============ BUTTONS ============*/
