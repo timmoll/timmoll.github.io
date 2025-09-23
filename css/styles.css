@@ -352,6 +352,7 @@ img {
     transition: .3s;
 }
 
+
 .home__scroll-button:hover {
     transform: translateY(0.25rem);
 }
@@ -381,6 +382,7 @@ img {
     text-align: center;
 }
 
+
 /* Outline-stijl voor de portfolio-knop */
 .button--outline {
     background-color: transparent;       /* Geen achtergrond */
@@ -400,6 +402,43 @@ img {
     color: var(--first-color) !important;
     border: 2px solid var(--first-color);
 }
+
+/* Hover: van outline naar gevuld (altijd) */
+.button.button--outline:hover {
+  background-color: var(--first-color) !important;
+  color: #fff !important;
+}
+
+/* Dark mode: tekst standaard wit houden op de outline-knop */
+body.dark-theme .button.button--outline {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: var(--first-color);
+}
+
+/* Dark mode + hover: zelfde gevulde hover als normaal */
+body.dark-theme .button.button--outline:hover {
+  background-color: var(--first-color) !important;
+  color: #fff !important;
+}
+/* Portfolio-knop: zelfde hover als .button */
+.button.button--outline:hover,
+body.dark-theme .button.button--outline:hover {
+  background-color: var(--first-color-alt) !important; /* zelfde als .button:hover */
+  color: #fff !important;
+  border-color: var(--first-color-alt) !important;
+  transform: translateY(-2px);
+}
+
+/* === Lift-animatie voor ALLE knoppen (light & dark) === */
+.button {
+  transition: background-color .3s ease, color .3s ease, transform .2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
 
 /*============ BUTTONS ============*/
 .button {
